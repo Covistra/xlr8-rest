@@ -1,0 +1,18 @@
+{
+    "name": "@xlr8/rest",
+    "version": "1.0.0",
+    "description": "Add REST resource support in your XLR8 micro-service",
+    "author": {
+        "email": "joelgrenon@covistra.com",
+        "name": "Joel Grenon"
+    },
+    "main": "./src/main.js",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "lodash.get": "^4.4.2",
+        "lodash.sortby": "^4.7.0"
+    },
+    "peerDependencies": {
+        "@xlr8/core": "1.x"
+    }
+}
